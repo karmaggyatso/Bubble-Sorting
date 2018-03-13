@@ -19,9 +19,6 @@ public class sorting {
             for (int i = 0; i<s.length-1; i++) { //this loop will keep on looping until i<6 in this case
                 for (int j = 0; j < s.length - 1- i; j++) { //everytime i is increased, the condition size is decreased
                     if (s[j] > s[j + 1]) {
-                        //store = s[j+1];
-                        //s[j+1] = s[i];
-                       // s[i] = store;
                         store = s[j]; //using bubble sort algorithm
                         s[j] = s[j + 1];
                         s[j + 1] = store;
